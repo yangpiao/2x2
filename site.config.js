@@ -1,14 +1,14 @@
 module.exports = {
-  name: 'website',
-  author: 'author',
-  url: 'http://localhost:3000',
+  name: '二二不得四',
+  author: 'YP',
+  url: 'http://2x2isnot4.com/',
   meta: {
-    keywords: 'static website',
-    description: 'this is an awesome website',
-    'apple-mobile-web-app-title': 'static website',
+    keywords: 'YP, Yang, 个人, blog',
+    description: '二二不得四: 胡写一气',
+    'apple-mobile-web-app-title': '二二不得四',
   },
   icon: '/favicon.png',
-  rss: 'http://localhost:3000/atom.xml',
+  rss: 'http://2x2isnot4.com/atom.xml',
   css: [
     '/css/style.css?v=1.0.0'
   ],
@@ -31,7 +31,7 @@ module.exports = {
   },
 
   plugins: {
-    disqus: '',
-    googleAnalytics: ''
+    disqus: '2x2isnot4',
+    googleAnalytics: 'UA-48373896-3'
   }
 };
