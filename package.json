@@ -1,7 +1,7 @@
 {
-  "name": "site-gen",
+  "name": "2x2-is-not-4",
   "version": "1.0.0",
-  "description": "Static site generator",
+  "description": "2x2 is not 4",
   "author": "Yang Piao",
   "private": true,
   "dependencies": {},
