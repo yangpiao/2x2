@@ -25,5 +25,5 @@ blog:
     pattern: /page/{{page}}
 
 plugins:
-  disqus: 2x2isnot4
+  # disqus: 2x2isnot4
   googleAnalytics: UA-48373896-3
