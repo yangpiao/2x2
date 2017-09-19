@@ -10,11 +10,20 @@ rss: http://2x2isnot4.com/atom.xml
 css:
   - /css/style.css?v=1.0.0
 scripts:
+
 blog:
-  postUrlPrefix: /posts
-  tagUrlPattern: /tag/{{tag}}
-  pagingUrlPattern: /page/{{page}}
-  pagination: 10
+  templates:
+    post: blog/post.html
+    tag: blog/tag.html
+    list: blog/index.html
+  urls:
+    post: /posts/{{post}}
+    tag: /tag/{{tag}}
+    list: /
+  pagination:
+    count: 10
+    pattern: /page/{{page}}
+
 plugins:
   disqus: 2x2isnot4
   googleAnalytics: UA-48373896-3
