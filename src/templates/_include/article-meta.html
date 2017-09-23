@@ -5,6 +5,6 @@
   {%- endfor %}
 </span>
 <time class="post__time" datetime="{{post.time|time}}">
-  {{post.time | time('MMM D, YYYY')}}
+  {{post.time | time('ll')}}
 </time>
-<span class="post__author">By {{post.author}}</span>
+<span class="post__author">{{post.author}}</span>
