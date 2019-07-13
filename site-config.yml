@@ -1,12 +1,12 @@
 name: 二二不得四
 author: Y
-url: http://2x2isnot4.com/
+url: https://2x2isnot4.com/
 meta:
   keywords: 二二不得四, 2x2, Yang, blog
   description: 二二不得四
   apple-mobile-web-app-title: 二二不得四
 icon: /favicon.png
-rss: http://2x2isnot4.com/atom.xml
+rss: https://2x2isnot4.com/atom.xml
 css:
   - /css/style.css?v=1.0.0
 scripts:

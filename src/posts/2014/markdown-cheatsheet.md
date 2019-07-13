@@ -190,8 +190,6 @@ Reference-style:
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
-![Jedi](http://cminor.qiniudn.com/jedi-8weeks-square.jpg "Jedi")
-
 <a name="code"></a>
 ## Code and Syntax Highlighting
 
