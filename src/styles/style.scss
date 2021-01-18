@@ -4,6 +4,46 @@
 
 $post-font-size: 0.9rem;
 
+
+.cover-page {
+  &, &__body {
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  &__body {
+    position: relative;
+    text-align: center;
+  }
+}
+
+.headline {
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  color: white;
+  height: 3.8em;
+  line-height: 1.9em;
+  text-align: center;
+  overflow: hidden;
+
+  &__text {
+    display: inline-block;
+    background-color: #f24747;
+    padding: 0 0.5em;
+    border-radius: 6px;
+    white-space: pre;
+  }
+}
+
 // layout
 .root {
   background-color: white;
