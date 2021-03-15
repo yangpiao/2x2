@@ -3,15 +3,21 @@
   "version": "1.1.0",
   "description": "2x2 is not 4",
   "author": "Yang Piao",
-  "devDependencies": {
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "serve": "gulp serve"
+  },
+  "dependencies": {
     "autoprefixer": "^10.2.1",
-    "browser-sync": "^2.26.13",
+    "browser-sync": "^2.26.14",
     "glob": "^7.1.6",
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.0",
     "highlight.js": "^10.5.0",
+    "html-minifier": "^4.0.0",
     "js-yaml": "^4.0.0",
-    "marked": "^1.2.7",
+    "marked": "^2.0.1",
     "moment": "^2.29.1",
     "nunjucks": "^3.2.2",
     "postcss": "^8.2.4",
@@ -19,11 +25,6 @@
   },
   "engines": {
     "node": ">=8.0"
-  },
-  "scripts": {
-    "clean": "rm -rf build",
-    "build": "gulp build",
-    "serve": "gulp serve"
   },
   "license": "MIT"
 }

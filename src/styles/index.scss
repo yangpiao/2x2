@@ -1,0 +1,35 @@
+@import 'variables';
+@import 'global';
+@import 'parts/markdown';
+@import 'parts/highlight';
+@import 'parts/page-header';
+@import 'parts/page-body';
+@import 'parts/page-footer';
+@import 'parts/post-list';
+@import 'parts/post';
+@import 'parts/post-meta';
+@import 'parts/toc';
+
+
+.front-page {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline {
+  font-size: 3rem;
+  font-weight: 400;
+  padding: 0.2em 0.5em;
+  border-radius: 10px;
+  height: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  background-color: $link-color;
+  color: $background-color;
+}

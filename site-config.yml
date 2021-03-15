@@ -8,18 +8,14 @@ meta:
 icon: /favicon.png
 # rss: https://2x2isnot4.com/atom.xml
 css:
-  - /css/style.css?v=1.0.1
+  - /css/styles.css?v=1.0.0
 scripts:
 
 blog:
-  templates:
-    post: blog/post.html
-    tag: blog/tag.html
-    list: blog/index.html
   urls:
     post: /posts/{{post}}
     tag: /tag/{{tag}}
-    list: /
+    index: /
   pagination:
     count: 10
     pattern: /page/{{page}}
